@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@1,300&family=Graduate&display=swap');
+
+:root{
+    --primary-color: #43C59E;
+    --secundary-color: #14453D;
+    --accent-color: #3D7068;
+    --additional-accent-color: #48BEFF;
+    --heading-font: 'Graduate', slab-serif;
+    --paragraph-or-default-font: 'Aleo', slab-serif;
+    --nav-background-color: #43C59E;
+    --nav-link-color: #14453D;
+    --nav-hover-link-color: #3D7069;
+    --nav-hover-background-color: #48BEFF;
+}
+
+body{
+    font-family: (var(--paragraph-or-default-font));
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--heading-font);
+    color: #14453D;
+}
+
+header{
+    padding: 20px;
+    background-color: #48BEFF;
+}
+
+p{
+    padding: 25px
+}
+
+nav{
+    background-color: var(--nav-background-color);
+    font-size: 1rem;
+    display: flex;
+}
+
+nav a{
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover{
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
