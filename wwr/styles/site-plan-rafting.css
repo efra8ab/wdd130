@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@1,300&family=Graduate&display=swap');
 
 :root{
-    --primary-color: #43C59E;
+    --primary-color:#43C59E;
     --secondary-color: #14453D;
     --accent1-color: #3D7068;
     --accent2-color: #48BEFF;
@@ -14,7 +14,7 @@
 }
 
 body{
-    font-family: var(--paragraph-or-default-font);
+    font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
 }
