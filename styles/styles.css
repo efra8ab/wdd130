@@ -23,7 +23,7 @@ h1 {
 }
 
 main img {
-    float:left;
+    float:right;
     width: auto;
     height: 300px;
     border: 1px solid steelblue;
@@ -63,7 +63,7 @@ footer{
     text-align: center;
 }
 
-/* Class Selectors  */
+/* Class Selectors */
 
 .box {
     clear: both;
