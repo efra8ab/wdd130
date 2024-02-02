@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@1,300&family=Graduate&display=swap');
+
+:root{
+    --primary-color:#43C59E;
+    --secondary-color: #14453D;
+    --accent1-color: #3D7068;
+    --accent2-color: #48BEFF;
+    --heading-font: 'Graduate', slab-serif;
+    --paragraph-font: 'Aleo', slab-serif;
+    --nav-background-color: #43C59E;
+    --nav-link-color: #14453D;
+    --nav-hover-link-color: #3D7069;
+    --nav-hover-background-color: #48BEFF;
+}
+
+body{
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--heading-font);
+    color: #14453D;
+}
+
+header{
+    padding: 20px;
+    background-color: #48BEFF;
+}
+
+p{
+    padding: 25px
+}
+
+nav{
+    background-color: var(--nav-background-color);
+    font-size: 1rem;
+    display: flex;
+}
+
+nav a{
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover{
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+.hero{
+    position: relative;
+
+}
+
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1{
+    position: absolute;
+    color: var(--primary-color);
+    top: 40px;
+    right: 180px;
+    background-color: var(--nav-hover-link-color);
+}
+
+.hero article img{
+    position: absolute;
+    bottom: 300px;
+    left: 730px;
+    float: right;
+    width: 200px;
+
+}
+
+.hero article p{
+    position: absolute;
+    bottom: 285px;
+    left: 155px;
+    float: left;
+    width: 200px;
+    color: var(--nav-background-color);
+    background-color: var(--nav-hover-link-color);
+    opacity: 0.9;
+    padding-bottom: 135px;
+    padding-left: 350px;
+    
+}
+
+
