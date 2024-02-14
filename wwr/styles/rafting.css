@@ -108,9 +108,9 @@ nav a:hover{
     position: absolute;
     bottom: 12rem;
     right: 13.5rem;
-    color: var(--nav-background-color);
+    color: var(--nav-link-color);
     z-index: 2;
-    background-color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
     padding: 10px;
     box-sizing: border-box;
     opacity: 0.9;
