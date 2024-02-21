@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafting Site | Contact Us</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+    <meta name="author" content="Efrain Ochoa">
+    <meta name="description" content="Contact Us">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Rafting Site Logo" width="150">
+        <nav>
+            <a href="index.html">Index</a>
+            <a href="about.html">About</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+        <main>
+            <h1>Contact Us</h1>
+            <div class="send_us_a_message">
+                <h2>Send Us a Message</h2>
+                <p>South Team Rafting Company</p>
+                <p>Phone: 5567-891-234</p>
+                <p>Email: <a href="mailto:">STRC@gmail.com</a></p>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d27560.552529795223!2d-93.25845323!3d30.29209537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2smx!4v1708406315233!5m2!1sen!2smx" width="400" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <section class="team">
+                <h2>Our Team</h2>
+                <div class="team_gallery">
+                    <figure>
+                        <img src="images/CEO_David_Wallace.jpg" alt="CEO">
+                        <figcaption>David Wallace, CEO</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/Exp_Coord_Becky_S.jpg" alt="Exp_Coordinator">
+                        <figcaption>Becky Smith, Coordinator</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/Raft_Specialist_Sandy_Torres.jpg" alt="rafting_specialist">
+                        <figcaption>Sandy Torres, Rafting Specialist</figcaption>
+                    </figure>
+                </div>
+            </section>
+            <form>
+                <fieldset>
+                    <legend>Contact Us</legend>
+                    <label for="User Name">User Name</label>
+                    <input type="text" id="User Name" name="user_name" required>
+                </fieldset>
+                <fieldset>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="user_email" required>
+                </fieldset>
+                <fieldset>
+                    <label>Purpose of the Message:</label>
+                    <input type="radio" name="purpose" id="general" value="General Inquiry" required>
+                    <label for="general">General Inquiry</label>
+                    <input type="radio" name="purpose" id="reservation" value="Reservation Question" required>
+                    <label for="reservation">Reservation Question</label>
+                    <input type="radio" name="purpose" id="suggestion" value="Website Suggestion" required>
+                    <label for="suggestion">Website Suggestion</label>
+                </fieldset>
+                <fieldset>
+                    <label for="message">Message:</label>
+                    <textarea name="use_message" id="message" cols="50" rows="10" required></textarea>
+                </fieldset>
+                <fieldset>
+                    <input type="checkbox" id="subscribe" name="subscribe" value="Subcribe">
+                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                </fieldset>
+                <button type="submit">Submit</button>
+            </form>
+        </main>
+    <footer>
+        <p>©️ 2024, The Rafting Company, 🌮Efrain</p>
+        <nav class="sociallinks">
+            <a href="https://www.facebook.com/">
+                <img src="images/FB_logo.png" alt="Facebook" width="50">
+            </a>
+            <a href="https://www.instagram.com/">
+                <img src="images/IG_logo.png" alt="Instagram" width="50">
+            </a>
+            <a href="https://web.whatsapp.com/">
+                <img src="images/WA_logo.png" alt="Whatsapp" width="50">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>

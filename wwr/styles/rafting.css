@@ -13,6 +13,73 @@
     --nav-hover-background-color: #48BEFF;
 }
 
+*{
+    padding: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form{
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    border-color: grey;
+    display: grid;
+}
+
+fieldset{
+    display: grid;
+    grid-gap: 0.5rem;
+    margin: 1rem;
+    border: 1px solid var(--secondary-color);
+    padding: 1rem;
+}
+
+legend{
+    padding: 0.5rem;
+    color: navy;
+    font-size: 2.4rem;
+}
+
+label{
+    font-size: 1.4rem;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 0;
+}
+
+button{
+    width: 50%;
+    height: 3rem;
+    display: block;
+    margin: 0 auto; 
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    align-items: center;
+    background-color: #3D7069;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    margin-top: 0.2rem;
+    vertical-align: middle;
+    display: inline-block;
+    
+}
+
+input{
+    width: auto;
+    height: 2.5rem;
+    font-size: 1.5rem;
+}
+
+
+button:hover{
+    background-color: #43C59E;
+}
+
 body{
     font-family: var(--paragraph-font);
     max-width: 960px;
@@ -72,6 +139,13 @@ nav a:hover{
 .hero img{
     width: 100%;
     height: auto;
+}
+
+.send_us_a_message{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
 }
 
 .overlay_content{
@@ -191,6 +265,21 @@ nav a:hover{
 .adventure_gallery figcaption{
     text-align: center;
     margin-top: 8px;
+}
+
+
+.team_gallery{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.team img {
+    width: 10rem;
+    height: auto;
+    display: inline-flex;
 }
 
 footer{
