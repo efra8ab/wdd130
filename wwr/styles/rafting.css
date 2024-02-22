@@ -291,3 +291,53 @@ footer{
     color: var(--nav-link-color);
     font-weight: 700;
 }
+
+.book_now{
+    position: absolute;
+    display: inline-block;
+    padding: 5rem 20rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 5px;
+    background-color: var(--nav-link-color);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    opacity: 0.8;
+    font-size: 3rem;
+    white-space: nowrap;
+}
+
+.book_now:hover{
+    background-color: #38a585;
+    opacity: 1;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    text-align: left;
+}
+
+caption{
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+thead{
+    background-color: rgb(87, 212, 170);
+    color:#051f1a
+}
+
+th, td{
+    padding: 0.5em;
+    border: 1px solid black;
+}
+
+th{
+    font-weight: bold;
+}
